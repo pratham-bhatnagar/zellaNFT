@@ -47,11 +47,10 @@ export default function index() {
           <div className=" flex flex-col gap-10 justify-center">
             <p className="text-5xl font-bold w-full">Play-To-Earn Gaming.</p>
             <p className="text-lg font-normal">
-              We bring to you collectibles of brands you look up to. ZelaaNFT
-              makes your shopping experience next level as we gear up to work
-              with top fashion brands around the globe to deliver NFTs that can
-              be redeemed for physical pieces at their stores while sustaining
-              the value in staked NFTs you own.
+              for the first-time ever as a marketplace, ZelaaNFT will introduce
+              game assets as NFTs to collect from our platform and use in games
+              that are building up in the Metaverse. Be ready for exclusive
+              deals, cheat codes and more to play.
             </p>
             <button className="px-10 py-3 font-bold rounded-full w-fit text-white text-md  bg-[#5546FF]">
               Player

@@ -11,8 +11,9 @@ export default function index() {
           <p className="text-[#5546FF]">questions</p>
         </div>
         <p className="text-xl">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget
-          magna nec felis pellentesque.
+          This is our quick section to answer your primary questions around the
+          project that ZelaaNFT is - a powerhouse metaverse built with and for
+          celebrities and high-talent individuals around the globe.
         </p>
         <div className="flex items-center gap-4 opacity-80">
           <img src="./svgs/facebook-f-brands.svg" className="h-5"></img>
@@ -25,18 +26,22 @@ export default function index() {
         <div>
           {" "}
           <Faqcards
-            question={"How to Change my Photo from Admin Dashboard?"}
+            question={"What is ZelaaNFT"}
             answer={
-              "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast"
+              "a Web3.0 non-fungible token marketplace that is primarily to support celebrity collectible drops to the users."
             }
           />
           <Faqcards
-            question="How to Change my Password easily?"
-            answer="Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast"
+            question="Rewards Distribution Plan"
+            answer="we pledge to distribute a % of tokens that will be locked up in the rewards pool to all buyers and sellers of the platform (Rarible early days or now the same model as LooksRare)"
           />
           <Faqcards
-            question="How to Change my Subscription Plan using PayPal"
-            answer="Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast"
+            question="Is this Primary or Secondary?"
+            answer="ZelaaNFT will act as a chain agnostic platform to support both primary and secondary markets for all drops that happen on our platform."
+          />{" "}
+          <Faqcards
+            question="Will ZelaaNFT become an aggregator?"
+            answer="we do intend to bring together multiple marketplaces under the same hood and in future we will eventually add frontend support to preview NFTs from other marketplaces on ZelaaNFT"
           />
         </div>
         <div className="flex flex-col gap-6">

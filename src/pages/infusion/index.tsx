@@ -18,8 +18,10 @@ export default function Index() {
             <p>is coming </p>
           </label>
           <p className="text-xl">
-            ZelaaNFT sources assets from the real-world and converts them into
-            NFTs while retaining their value.
+            ZelaaNFT goes beyond just a platform to collect JPEGs - we strive to
+            include real-world experiences that connect with all Genesis drops
+            we launch on the platform that will retain digital but also enable
+            collectors to proclaim physical value for the collectibles.
           </p>
           <button className="px-10 py-3 rounded-full w-fit text-white text-md  bg-[#5546FF]">
             Get Started
@@ -27,16 +29,16 @@ export default function Index() {
         </div>
         <div className="flex flex-col w-full ">
           <Card
-            question="Bid"
-            answer="Bid for NFTs on ZelaaNFT using FDO, ETH and USDT"
+            question="Bid on Primary"
+            answer="As a collector, you can primarily bid on drops through Limit or Market bids and sweep floors or wait for acceptance of your bids."
           />{" "}
           <Card
-            question="Resell"
-            answer="Use ZelaaNFT as a secondary market to also resell your NFTs"
+            question="Secondary"
+            answer="We work with creators to develop individual open-stores to run their secondary markets and also strategically promote them for collectors to retain value in longer run."
           />{" "}
           <Card
-            question="Resell"
-            answer="The FDO token is also a deflationary asset that continues to burn total supply by contributing portion of FDO collected from all NFT sales and transactions fees from proceed of NFTs."
+            question="Claimable NFTs"
+            answer="Most NFTs that we work and drop will always have a physical asset or experiences of a lifetime included with them. These will act as a bridge to bring alive your dreams as fans of of these talents to have opportunities to hangout and more."
           />
         </div>
       </div>

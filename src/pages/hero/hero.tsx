@@ -28,17 +28,48 @@ export default function Hero() {
           Get drop alerts
         </button>
         <div className="flex gap-5 ">
-          <Card />
-          <Card />
-          <Card /> <Card />
+          {" "}
+          <Card
+            imageUrl={
+              "https://zelaanft.whitespacestd.net/wp-content/uploads/2022/07/product_1.png"
+            }
+            name={"Thunder ✨"}
+            artist={"Lindsay Lohan"}
+            profilePhoto={""}
+          />
+          <Card
+            imageUrl={
+              "https://uploads-ssl.webflow.com/625018abb3e7346b01409c54/62502670028fb739bd9d7600_Mask%20Group%20(2).png"
+            }
+            name={"Crank That 🔥"}
+            artist={"Soulja Boy"}
+            profilePhoto={""}
+          />
+          <Card
+            imageUrl={
+              "https://uploads-ssl.webflow.com/625018abb3e7346b01409c54/625026bf21a753772aa9fc88_Mask%20Group%20(3).png"
+            }
+            name={"Taste 👅️️"}
+            artist={"Tyga"}
+            profilePhoto={""}
+          />
+          <Card
+            imageUrl={
+              "https://uploads-ssl.webflow.com/625018abb3e7346b01409c54/62c4917978c529177b404949_2022-07-06%2001.00.49.jpg"
+            }
+            name={"Khloë 07 🔫️️"}
+            artist={"Khloë Terae"}
+            profilePhoto={""}
+          />
         </div>
       </div>
       <div className="flex flex-col gap-5 items-center mt-12 mb-24 bg-white ">
         <p className="italic text-5xl font-bold text-slate-800">Backed By</p>
         <p className="text-xl mx-[20vw] text-center opacity-90 mt-[20px]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet
-          elementum tortor. Donec at ipsum quis libero vestibulum varius eget et
-          lacus. Fusce id magna consequat, imperdiet nibh at.
+          ZelaaNFT is running on Polygon and is backed by a consortium of
+          partners and talents that make our metaverse inclusive on a deeper
+          level when we open doors to creators through incubation and
+          acceleration!
         </p>
         <img
           className="w-[20vw] mt-[30px]"
@@ -48,13 +79,13 @@ export default function Hero() {
       <HowItWorks />
       <Infusion />
       <MusicAsNFT />
-      <Founder />
+      {/* <Founder /> */}
       <RealEstate />
       <Creators />
-      <FeatureArtist />
+      {/* <FeatureArtist /> */}
       <UpClose />
-      <Testimonial />
-      <CoinDesk />
+      {/* <Testimonial />
+      <CoinDesk /> */}
       <Faq />
       <Subcribe />
       <Footer />

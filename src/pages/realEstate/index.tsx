@@ -16,9 +16,9 @@ export default function Index() {
         </div>
         <div className="w-[50%]">
           <p className="w-[90%] text-lg">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-            eget varius massa. Donec consectetur justo quam, hendrerit hendrerit
-            tellus pellentesque vitae.
+            We work closely with owners and developers to fractionalise
+            ownership of real-estate assets and distribute it directly to
+            holders. You can fully own a physical asset completely virtually.
           </p>
           <button className="px-10 py-3 rounded-full w-fit text-white text-md mt-8  bg-[#5546FF]">
             Click Here
@@ -27,8 +27,8 @@ export default function Index() {
       </div>
       <div className="flex gap-8 justify-center">
         {" "}
-        <Card /> <Card />
-        <Card /> <Card />
+        {/* <Card /> <Card />
+        <Card /> <Card /> */}
       </div>
     </>
   );

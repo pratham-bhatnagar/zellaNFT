@@ -24,30 +24,30 @@ export default function Index() {
         </p>
         <div className="flex gap-3 m-12">
           <HowItWorksCard
-            Title={"Connect Your Wallet"}
+            Title={"Sourcing and Moderation"}
             description={
-              "Getting started with ZelaaNFT is simple. Just connect your metamask wallet and create your profile"
+              "We handpick genesis drops by working closely with our top talents and after analysis of niches, we assemble it on ZelaaNFT"
             }
             imageUrl={
-              "https://zelaanft.whitespacestd.net/wp-content/plugins/elementor/assets/images/placeholder.png"
+              "https://uploads-ssl.webflow.com/625018abb3e7346b01409c54/62c2c53e75274071befc5785_1.sourcing%20and%20moderation-p-1080.png"
             }
           />
           <HowItWorksCard
-            Title={"Connect Your Wallet"}
+            Title={"Fandom"}
             description={
-              "Getting started with ZelaaNFT is simple. Just connect your metamask wallet and create your profile"
+              "In a community driven approach we bridge the gap between the creator and the collector - through various features that enable connecting with your favourite creator easier. "
             }
             imageUrl={
-              "https://zelaanft.whitespacestd.net/wp-content/plugins/elementor/assets/images/placeholder.png"
+              "https://uploads-ssl.webflow.com/625018abb3e7346b01409c54/62c2c5723500c6082a670e16_2.fandom-p-1080.png"
             }
           />
           <HowItWorksCard
-            Title={"Connect Your Wallet"}
+            Title={"Web3/4/5/6"}
             description={
-              "Getting started with ZelaaNFT is simple. Just connect your metamask wallet and create your profile"
+              "There is no limit for innovation and with markets changing at the speed of light, we maintain ZelaaNFT by having inclusion of chain-agnostic drops that run and sustain."
             }
             imageUrl={
-              "https://zelaanft.whitespacestd.net/wp-content/plugins/elementor/assets/images/placeholder.png"
+              "https://uploads-ssl.webflow.com/625018abb3e7346b01409c54/62c2c58e0babd52a59cc1fc4_3.web%203456-p-1080.png  "
             }
           />
         </div>
